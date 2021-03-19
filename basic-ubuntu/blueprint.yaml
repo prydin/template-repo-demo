@@ -1,0 +1,8 @@
+name: 'basic-ubuntu'
+version: 1
+resources:
+  UbuntuMachine:
+    type: Cloud.Machine
+    properties:
+      image: 'ubuntu'
+      flavor: 'tiny'
